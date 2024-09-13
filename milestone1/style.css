@@ -1,0 +1,37 @@
+*{
+    background-color:#8599d8;
+    margin-top: auto;
+    padding: 10px;
+
+    
+}
+#skills{ 
+    display: block; /* Initially, the skills section is shown */
+    padding: 20px;
+    background-color: #f0f0f0;
+
+}
+#persinfo,#Educ,#Workexp{
+    text-align: left;
+font-family: 'Times New Roman', Times, serif;
+font-size: medium;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.image::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+h2{
+    text-decoration: underline;
+}
+
+.atoggle-button {
+    padding: 10px 20px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
